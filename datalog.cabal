@@ -8,7 +8,7 @@ maintainer:          tristan@nochair.net
 category:            Database
 build-type:          Simple
 cabal-version:       >=1.10
-tested-with: GHC == 7.4.2, GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.2
+tested-with: GHC == 7.4.2, GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.3
 description: This is an implementation of datalog in pure Haskell.
              It is implemented as a library and can be used from within
              any Haskell application.  As a consequence, it supports both
@@ -35,7 +35,7 @@ library
                  exceptions >= 0.5 && < 0.9,
                  text,
                  transformers >= 0.3 && < 0.5,
-                 vector >= 0.9 && < 0.11
+                 vector >= 0.9 && < 0.12
   hs-source-dirs: src
   ghc-options: -Wall -auto-all
 
