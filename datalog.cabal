@@ -28,6 +28,7 @@ library
                    Database.Datalog.Relation
                    Database.Datalog.Rules
                    Database.Datalog.Stratification
+                   Database.Datalog.Typechecker
   build-depends: base == 4.*,
                  containers,
                  unordered-containers,

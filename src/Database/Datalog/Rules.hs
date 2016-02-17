@@ -15,6 +15,7 @@ module Database.Datalog.Rules (
   Literal(..),
   Query(..),
   QueryBuilder,
+  QueryState(..),
   PartialTuple(..),
   (|-),
   assertRule,
